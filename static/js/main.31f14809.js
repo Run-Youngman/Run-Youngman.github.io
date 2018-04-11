@@ -30988,6 +30988,7 @@ var _default = function (_Component) {
             var params = this.props.match.params;
 
             __webpack_require__(446)("./" + params.tag + '/' + params.name).then(function (md) {
+                console.log('6666666666666666666666666666666666666', md);
                 _this2.setState({ md: md.getArticle() });
             });
             // if(FileMap[params.tag] && FileMap[params.tag][params.name] === true){   //存在改文章路径
@@ -45253,4 +45254,4 @@ window.config = {
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=main.f452dce1.js.map
+//# sourceMappingURL=main.31f14809.js.map
